@@ -26,3 +26,25 @@ ToDoList.prototype.deleteTask = function (id) {
     delete this.tasks[id];
     return true;
 };
+
+// --- SECTION 2: UI LOGIC ---
+
+let myToDoList = new ToDoList();
+
+function displayTasks(listToDisplay) {
+    let listArea = $("#tasks-display");
+    let htmlString = "";
+
+    Object.keys(listToDisplay.tasks).forEach(function (id) {
+        const task = listToDisplay.tasks[id];
+        // If task.isDone is true, we add the 'done' 
+        let strikeClass = task.isDone ? "class='done'" : "";
+
+        htmlString += "<li>" +
+            "<span " + strikeClass + " id='text-" + task.id + "'>" + task.description + "</span>" +
+            "<div>" +
+            "<button class='done-btn' id=" + task.id + ">Done</button> " +
+            "<button class='delete-btn' id=" + task.id + ">Remove</button>" +
+            "</div>" +
+            "</li>";
+    });
