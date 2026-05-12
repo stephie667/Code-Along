@@ -21,10 +21,10 @@ body {
 }
 
 .form-box {
-    background: #f0f2f5;
+    background: #e8eaec;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(219, 116, 116, 0.1);
     flex: 1;
 }
 
@@ -47,6 +47,7 @@ input {
 
 #save-btn:hover {
     background-color: #0056b3;
+    padding: 10px;
 }
 
 ul {
