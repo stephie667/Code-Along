@@ -38,8 +38,8 @@ function showContacts(book) {
     listArea.html(htmlString);
 }
 
-$(document).ready(function()) {
-    $("#new-contact-form").submit(function(event))
+$(document).ready(function() {
+    $("#new-contact-form").submit(function(event)
 {
     event.preventDefault();
 
@@ -54,5 +54,10 @@ $(document).ready(function()) {
 myAdressBook.addContact(newContact);
 
     showContacts(myAdressBook);
-    
-}
+
+    // clear inputs
+    $("#first-name").val();
+    $("#last-name").val("");
+    $("#phone-nember").val("");
+});
+});
