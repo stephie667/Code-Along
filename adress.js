@@ -51,5 +51,8 @@ $(document).ready(function()) {
     let newContact =new
     contact(first,last,phone);
 
+myAdressBook.addContact(newContact);
 
+    showContacts(myAdressBook);
+    
 }
