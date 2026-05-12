@@ -42,4 +42,14 @@ $(document).ready(function()) {
     $("#new-contact-form").submit(function(event))
 {
     event.preventDefault();
+
+    let first=$
+    ("#fist-name").val();
+    let last=$ ("#last-name").val();
+    let phone=$ ("#phone-number").val();
+
+    let newContact =new
+    contact(first,last,phone);
+
+
 }
