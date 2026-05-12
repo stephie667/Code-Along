@@ -15,9 +15,12 @@ A practice project for creating objects in javascripts using prototypes and cont
  1. Create new contact with name and number
  2. make empty list for my contacts
  3. give a contact an ID number ahen l add it
- 
+
     To Do LIst Part
 1. create tasks: (let task1= newTask("finish assignment"))
 2. add task to the to do list:(let list= newToDoList); list.addTask("task1")
 3. change tak to done after completing it: (list.toggleDone(1))
 4. remove uneccessary tasks:(list. deleteTask(1))
+# Copy-Right
+© 2026. All rights reserved.
+
