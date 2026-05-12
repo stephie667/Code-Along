@@ -16,3 +16,12 @@ body {
     margin-top: 30px;
     text-align: left;
 }
+
+.form-box,
+.list-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    flex: 1;
+}
