@@ -45,3 +45,21 @@ input {
     cursor: pointer;
     font-weight: bold;
 }
+
+.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
