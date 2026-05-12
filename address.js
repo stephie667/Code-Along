@@ -4,21 +4,21 @@ function Contact(first, last, phone){
      this.firstName= first;
      this.lastName= last;
      this.phoneNumber= phone;
-}
+};
   function addressBook() {
     this.contaccts = {};
     this.currentId = 0;
-}
+};
 
 AddressBook.prototype.assignId = function() {
     this.currentId= this.currentId + 1;
     return this.currentId;
-}
+};
 
  AdressBook.prototype.addContact = function(contact) {
      contact.id = this.assignId();
      this.contact[contact.id]= contact;
-}
+};
 AddressBook.prototype.deleteContact = function (id) {
     if (this.contacts[id] === undefined) {
         return false;
@@ -42,7 +42,7 @@ function showContacts(book) {
 
 });
     listArea.html(htmlString);
-}
+};
 
 $(document).ready(function() {
 $("#new-contact-form").submit(function(event)
