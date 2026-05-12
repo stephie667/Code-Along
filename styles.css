@@ -4,32 +4,17 @@ body {
     padding: 20px;
 }
 
-
-
-/* This is for the "Mark as Done" feature */
-/* .done {
-    text-decoration: line-through;
-    color: #888;
+.main-container {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    padding: 12px;
-    border-bottom: 1px solid #eee;
+.content-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5,);
+    flex: 1;
 }
 
-.delete-btn {
-    background-color: #dc3545;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-}  */
